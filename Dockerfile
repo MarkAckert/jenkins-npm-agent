@@ -13,6 +13,7 @@ sshpass \
 zip \
 gzip \
 tar \
+rsync \
 && rm -rf /var/lib/apt/lists/*
 
 # Add node version 8 which should bring in npm, add maven and required ssl certificates to contact maven central
