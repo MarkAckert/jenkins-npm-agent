@@ -1,5 +1,4 @@
-# This Dockerfile is used to build an image containing basic stuff to be used as a Jenkins slave build node. based on evarga/jenkins-slave
-# This Dockerfile is based on stevenhorsman-ibm's.
+# This Dockerfile is based on Chris Wright's from CA (ahumanfromca)
 FROM ahumanfromca/jenkins-npm-keytar
 
 # Install curl, maven,
